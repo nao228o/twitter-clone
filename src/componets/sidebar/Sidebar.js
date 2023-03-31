@@ -10,12 +10,13 @@ import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
 import PermIdentityIcon from '@mui/icons-material/PermIdentity';
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz';
 import { Button } from '@mui/material';
+import "./Sidebar.css";
 
 function Sidebar() {
   return (
     <div className='sidebar'>
       {/* ツイッターアイコン */}
-        <TwitterIcon className='sidebar--teitterIcon'/>
+        <TwitterIcon className='sidebar--twitterIcon'/>
       
       {/* SidebarOption */}
       <SidebarOption text='ホーム' Icon={ HomeIcon }/>
