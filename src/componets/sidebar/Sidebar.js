@@ -11,9 +11,12 @@ function Sidebar() {
       
       {/* SidebarOption */}
       <SidebarOption text='ホーム' Icon={ HomeIcon }/>
-      <SidebarOption text='ホーム' Icon={ HomeIcon }/>
-      <SidebarOption text='ホーム' Icon={ HomeIcon }/>
-      <SidebarOption text='ホーム' Icon={ HomeIcon }/>
+      <SidebarOption text='話題を検索' Icon={ HomeIcon }/>
+      <SidebarOption text='通知' Icon={ HomeIcon }/>
+      <SidebarOption text='ブックマーク' Icon={ HomeIcon }/>
+      <SidebarOption text='リスト' Icon={ HomeIcon }/>
+      <SidebarOption text='プロフィール' Icon={ HomeIcon }/>
+      <SidebarOption text='もっと見る' Icon={ HomeIcon }/>
       {/* SidebarOption */}
       {/* SidebarOption */}
       {/* SidebarOption */}
