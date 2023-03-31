@@ -16,6 +16,9 @@ function Timeline() {
 
       {/* {Post} */}
       <Post />
+      <Post />
+      <Post />
+      <Post />
       {/* {Post} */}
       {/* {Post} */}
       {/* {Post} */}
