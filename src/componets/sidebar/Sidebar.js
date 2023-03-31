@@ -1,6 +1,7 @@
 import React from 'react'
 import TwitterIcon from '@mui/icons-material/Twitter';
 import SidebarOption from './SidebarOption';
+import HomeIcon from '@mui/icons-material/Home';
 
 function Sidebar() {
   return (
@@ -9,7 +10,10 @@ function Sidebar() {
         <TwitterIcon className='sidebar--teitterIcon'/>
       
       {/* SidebarOption */}
-        <SidebarOption />
+      <SidebarOption text='ホーム' Icon={ HomeIcon }/>
+      <SidebarOption text='ホーム' Icon={ HomeIcon }/>
+      <SidebarOption text='ホーム' Icon={ HomeIcon }/>
+      <SidebarOption text='ホーム' Icon={ HomeIcon }/>
       {/* SidebarOption */}
       {/* SidebarOption */}
       {/* SidebarOption */}

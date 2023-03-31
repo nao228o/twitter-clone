@@ -1,11 +1,11 @@
 import React from 'react'
-import HomeIcon from '@mui/icons-material/Home';
 
-function SidebarOption() {
+
+function SidebarOption({text, Icon}) {
   return (
     <div>
-      <HomeIcon />
-      <h2>ホーム</h2>
+      <Icon />
+      <h2>{text}</h2>
     </div>
   )
 }
