@@ -30,7 +30,7 @@ function Sidebar() {
 
 
       {/* ツイートボタン */}
-        <Button variant='outlined' className='sidebar--tweet'>ツイートする</Button>
+        <Button variant='outlined' className='sidebar--tweet' fullWidth>ツイートする</Button>
     </div>
   )
 }
